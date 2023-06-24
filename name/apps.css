@@ -1,0 +1,25 @@
+:root{
+    --c-brand: #fac562;
+    --c-dark: #333;
+    --c-body: #666;
+    --f-base: "Plus Jakarta Sans", sans-serif;
+    --n-height: 100px;
+}
+
+
+*,*::after, *::before{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    color: var(--c-body)
+}
